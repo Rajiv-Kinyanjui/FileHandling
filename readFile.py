@@ -6,10 +6,20 @@
 
 # handle.close()
 
+
 #Reading a single line
+# handle = open("test.txt","r")
+
+# data = handle.readline()
+# print(data)
+
+# handle.close()
+
+
+#Reading multiple lines
 handle = open("test.txt","r")
 
-data = handle.readline()
+data = handle.readlines()
 print(data)
 
 handle.close()
