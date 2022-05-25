@@ -27,7 +27,8 @@ with open("test.txt","r") as handle:
 
 # data = handle.read()
 # counter = 0
-# for word in data.split():
+# for word in data.split(): //Splits the statement into strings of words.
+
 #     if word == "Python":
 #         counter += 1
 # print(counter)
